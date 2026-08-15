@@ -1,0 +1,106 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Tanushree Negi",
+      "email": "tanushree@example.com",
+      "password": "seedpassword123",
+      "tier": "free",
+      "aiCredits": 5,
+      "createdAt": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "u_ms5exx7jzmllf",
+      "tier": "free",
+      "aiCredits": 5,
+      "createdAt": "2026-07-29T01:35:43.711Z",
+      "name": "Tanushree Negi",
+      "email": "test123@gmail.com",
+      "password": "$2b$10$Rx4T10CaVB4/sjR5qKPRceYiBiM7Rat2hFDymsePFJ70IWcp6uFCu"
+    },
+    {
+      "id": "u_ms8724k7mtitv",
+      "tier": "free",
+      "aiCredits": 5,
+      "createdAt": "2026-07-31T00:18:21.481Z",
+      "name": "Test User",
+      "email": "jwt-test@gmail.com",
+      "password": "$2b$10$tz6tb6LDB27cUPRfo256QuVkBcCKRR5..vWtg35MHEOVsvBNJLnDy"
+    },
+    {
+      "id": "u_ms879czsxwfs5",
+      "tier": "free",
+      "aiCredits": 5,
+      "createdAt": "2026-07-31T00:23:58.984Z",
+      "name": "Test User",
+      "email": "jwt-test2@gmail.com",
+      "password": "$2b$10$6vnwuQDaDVn91T.lT4uVnuOKtsG/MU.Fdp4BUhH5bWeBLUvOZFkea"
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc1",
+      "userId": "u1",
+      "title": "My First Resume",
+      "type": "resume",
+      "templateId": "tpl1",
+      "sections": [
+        {
+          "id": "sec1",
+          "type": "experience",
+          "title": "Experience",
+          "order": 1,
+          "items": [
+            {
+              "id": "item1",
+              "role": "Full Stack Intern",
+              "company": "Shorter Loop",
+              "description": "Built REST APIs with Express and Node.js"
+            }
+          ]
+        }
+      ],
+      "versions": [],
+      "createdAt": "2026-07-01T00:00:00.000Z",
+      "updatedAt": "2026-07-01T00:00:00.000Z"
+    }
+  ],
+  "templates": [
+    {
+      "id": "tpl1",
+      "name": "Minimal",
+      "layout": "single-column"
+    },
+    {
+      "id": "tpl2",
+      "name": "Modern",
+      "layout": "two-column"
+    }
+  ],
+  "applications": [
+    {
+      "id": "app1",
+      "userId": "u1",
+      "company": "Example Corp",
+      "role": "Frontend Developer",
+      "status": "applied",
+      "appliedDate": "2026-07-05T00:00:00.000Z"
+    },
+    {
+      "id": "app_mrl6hlupoqiwb",
+      "userId": "u1",
+      "company": "Microsoft",
+      "role": "Backend Intern",
+      "status": "applied",
+      "appliedDate": "2026-07-14T21:43:42.049Z"
+    },
+    {
+      "id": "app_mrmn7cc2t5qws",
+      "status": "applied",
+      "appliedDate": "2026-07-15T22:19:22.802Z",
+      "userId": "u1",
+      "company": "Microsoft",
+      "role": "Backend Intern"
+    }
+  ]
+}
